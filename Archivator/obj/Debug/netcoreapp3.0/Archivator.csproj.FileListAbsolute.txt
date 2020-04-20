@@ -1,0 +1,11 @@
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\bin\Debug\netcoreapp3.0\Archivator.exe
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\bin\Debug\netcoreapp3.0\Archivator.deps.json
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\bin\Debug\netcoreapp3.0\Archivator.runtimeconfig.json
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\bin\Debug\netcoreapp3.0\Archivator.runtimeconfig.dev.json
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\bin\Debug\netcoreapp3.0\Archivator.dll
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\bin\Debug\netcoreapp3.0\Archivator.pdb
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\obj\Debug\netcoreapp3.0\Archivator.csprojAssemblyReference.cache
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\obj\Debug\netcoreapp3.0\Archivator.AssemblyInfoInputs.cache
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\obj\Debug\netcoreapp3.0\Archivator.AssemblyInfo.cs
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\obj\Debug\netcoreapp3.0\Archivator.dll
+C:\Users\Влад\Desktop\VS\Archivator\Archivator\obj\Debug\netcoreapp3.0\Archivator.pdb
