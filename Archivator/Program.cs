@@ -22,17 +22,17 @@ namespace Archivator
 class ArchivatorAppContext
 {
     protected string name;
-    public ArchivatorFactory ArchivatorStrategy { get; set; }
+    public ArchivatorFactory ArchivatorStrategyFactory { get; set; }
 
     public ArchivatorAppContext(string name, ArchivatorFactory arch)
     {
         this.name = name;
-        ArchivatorStrategy = arch;
+        ArchivatorStrategyFactory = arch;
     }
 
     public IArchive Archivate()
     {
-       return ArchivatorStrategy.Archivate();
+       return ArchivatorStrategyFactory.Archivate();
     }
 }
 
@@ -48,17 +48,17 @@ class ArchivatorFacade
 
     public void CreateTagArchive()
     {
-        _archivatorSubSystem.ArchivatorStrategy = new TagArchivatorAdapter(new TagArchivator());
+        _archivatorSubSystem.ArchivatorStrategyFactory = new TagArchivatorAdapter(new TagArchivator());
         _archivatorSubSystem.Archivate();
     }
     public void CreateZipArchive()
     {
-        _archivatorSubSystem.ArchivatorStrategy = new ZipArchivator();
+        _archivatorSubSystem.ArchivatorStrategyFactory = new ZipArchivator();
         _archivatorSubSystem.Archivate();
     }
     public void CreateRarArchive()
     {
-        _archivatorSubSystem.ArchivatorStrategy = new RarArchivator();
+        _archivatorSubSystem.ArchivatorStrategyFactory = new RarArchivator();
         _archivatorSubSystem.Archivate();
     }
 }
